@@ -1,0 +1,81 @@
+Claro, Alessandra! Aqui está um exemplo de um README para seu projeto **Catálogo de Filmes**, escrito em português e estruturado de forma profissional e clara:
+
+---
+
+# 🎬 Catálogo de Filmes
+
+Um catálogo interativo de filmes desenvolvido com HTML, CSS e JavaScript, que consome dados da API do The Movie Database (TMDb) e oferece uma experiência dinâmica e amigável de descoberta e busca por filmes.
+
+## ✨ Funcionalidades
+
+- 🔍 Busca por filmes através da API TMDb
+- 🌟 Listagem dos filmes populares filtrados para classificação até 12 anos
+- 💡 Modo claro/escuro com botão de alternância
+- 🎥 Exibição de sinopse e trailer (via YouTube) diretamente no card do filme
+- 💖 Sistema de favoritos com armazenamento local (localStorage)
+- 📄 Paginação de resultados de forma intuitiva
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3 (com responsividade)
+- JavaScript (ES6+)
+- API do TMDb (https://www.themoviedb.org)
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/catalogo-filmes.git
+   ```
+2. Navegue até o diretório:
+   ```bash
+   cd catalogo-filmes
+   ```
+3. Abra o arquivo `index.html` no seu navegador:
+   ```bash
+   start index.html
+   ```
+
+> 💡 Nenhuma instalação adicional é necessária. Basta abrir em um navegador moderno!
+
+## 📦 Estrutura de Arquivos
+
+```plaintext
+📁 catalogo-filmes/
+├── index.html
+├── style.css
+├── script.js
+```
+
+## 🧠 Lógica e Comportamento
+
+- `script.js`:
+  - Usa `fetch` para consumir dados da TMDb
+  - Filtra resultados adultos e exibe classificação
+  - Adiciona/remover favoritos via `localStorage`
+  - Atualiza a visualização automaticamente em pesquisa ou navegação por páginas
+
+## 🌙 Tema Escuro
+
+Clique no ícone 🌙 no cabeçalho para alternar entre os modos claro e escuro. O estilo é aplicado dinamicamente via JavaScript e classes CSS.
+
+## 💾 Favoritos
+
+Os filmes marcados como favoritos são armazenados no `localStorage` do navegador, permitindo que o usuário retorne posteriormente e veja suas escolhas.
+
+## 📱 Responsivo
+
+Compatível com dispositivos móveis e telas menores graças ao uso de media queries e layout flexível.
+
+## 📷 Preview
+
+*Insira aqui uma imagem ou gif demonstrando a aplicação, se desejar.*
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Se quiser que eu gere a versão em inglês ou personalize mais, como colocar links do GitHub ou badges, é só dizer! 🎯
